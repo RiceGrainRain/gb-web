@@ -1,4 +1,3 @@
-//init + hero
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -10,11 +9,11 @@ const Hero: React.FC = () => {
           srcSet="src/assets/gbs.png"
         />
         <video
-          className="relative inset-0 w-full h-full object-cover hidden sm:block"
+          className="relative inset-0 w-[80%] h-[80%] object-cover hidden sm:block mx-auto my-auto"
           src="src/assets/better_gbs.mp4"
           autoPlay
           muted
-          playsInline  
+          playsInline
         />
         <img
           className="sm:hidden w-full h-full object-cover"
