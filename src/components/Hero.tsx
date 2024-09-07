@@ -1,3 +1,4 @@
+//init + hero
 import React from "react";
 
 const Hero: React.FC = () => {
