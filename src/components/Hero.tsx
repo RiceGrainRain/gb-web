@@ -9,14 +9,14 @@ const Hero: React.FC = () => {
           srcSet="src/assets/gbs.png"
         />
         <video
-          className="relative inset-0 w-[80%] h-[80%] object-cover hidden sm:block mx-auto my-auto"
+          className="relative inset-0 w-[70%] h-[70%] object-cover hidden sm:block mx-auto my-auto"
           src="src/assets/better_gbs.mp4"
           autoPlay
           muted
           playsInline
         />
         <img
-          className="sm:hidden w-full h-full object-cover"
+          className="sm:hidden w-[70%] h-[70%] object-cover"
           src="src/assets/gbs.png"
           alt="Hero Background"
         />
