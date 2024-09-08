@@ -1,4 +1,4 @@
-// App.tsx
+// src/App.tsx
 import React from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/ui/Navbar";
@@ -9,7 +9,7 @@ const App: React.FC = () => {
     <div className="bg-black">
       <Navbar />
       <Hero />
-      <BentoGridDemo/>
+      <BentoGridDemo id="upcoming" />
     </div>
   );
 };

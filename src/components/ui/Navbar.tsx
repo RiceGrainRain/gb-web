@@ -6,10 +6,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-center">
         <ul className="flex space-x-6">
         <li>
-            <a href="#about" className="text-white hover:text-gray-400">Home</a>
-          </li>
-        <li>
-            <a href="#about" className="text-white hover:text-gray-400">Upcoming</a>
+            <a href="#upcoming" className="text-white hover:text-gray-400">Upcoming</a>
           </li>
           <li>
             <a href="#about" className="text-white hover:text-gray-400">About</a>
